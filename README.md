@@ -114,7 +114,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Vikas Kumar - [s100onu+github@gmail.com](mailto:s100onu+github@gmail.com)
 
-Project Link: [https://github.com/your-username/weather-travel-planner](https://github.com/your-username/weather-travel-planner)
+Project Link: [https://github.com/truevikas/weather-travel-planner](https://github.com/your-username/weather-travel-planner)
 
 ---
 
