@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Travel Planner</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Geocoder CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Travel Planner</h1>
+            <div class="search-container">
+                <input type="text" id="location-input" placeholder="Enter a location (min. 3 characters)">
+                <button onclick="document.getElementById('location-input').value && searchLocation()">Search</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            
+            <div class="weather-container">
+                <div class="selected-city">
+                    <h2>Selected Location</h2>
+                    <div id="main-weather"></div>
+                </div>
+                
+                <div class="nearby-cities">
+                    <h2>Nearby Cities</h2>
+                    <div id="nearby-weather-list"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Geocoder JS -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+</body>
+</html> 
